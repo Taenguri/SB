@@ -6,7 +6,6 @@
 </head>
 <body>
 <div id="main_content">
-<button> 설문 관리</button>
 
 </div>
 </body>

@@ -8,11 +8,16 @@ import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("board")
+@RequestMapping("/board")
 public class BoardController {
 
+    @GetMapping(value = "")
+    public ModelAndView BoardListPage(){
+        return new ModelAndView("/board/board_list.sb");
+    }
+
     @GetMapping(value = "/insert")
-    public ModelAndView MainPage(){
-        return new ModelAndView("board/insert");
+    public ModelAndView BoardInsertPage(){
+        return new ModelAndView("/board/insert.sb");
     }
 }
