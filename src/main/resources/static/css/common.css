@@ -1,0 +1,24 @@
+/*header*/
+#header{
+    background-color: black;
+    height: 4em;
+    text-align: center;
+    line-height: 4em;
+}
+
+#header span{
+    font-weight: bold;
+    color: white;
+}
+
+#main_content{
+    height: 10em;
+}
+
+
+
+/*footer*/
+#footer{
+    background-color: black;
+    height: 4em;
+}
